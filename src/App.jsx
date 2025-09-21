@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Navbar, Footer } from "./components/components.js";
 import {
   About,
-  Education,
   Skills,
   Services,
   Projects,
@@ -19,7 +18,6 @@ const App = () => {
       <Navbar activeElem={activeElem} setActiveElem={setActiveElem} />
       <div className="relative max-w-[1800px] mt-[5rem] bedar-sc2:mt-[6.8rem] w-full m-auto px-5 bedar-sc1:px-20 overflow-auto">
         <About />
-        <Education />
         <Skills />
         <Certificates />
         <Projects />
